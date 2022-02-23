@@ -1,0 +1,6 @@
+.testStyle {
+  /* composes: test-green from "../../styles/test.module.css"; */
+  composes: test-blue from "~/styles/test.module.css";
+  padding: 5px 10px;
+  margin: 15px;
+}
